@@ -47,7 +47,7 @@ AudioScribe AI is a Flask-based web application that automatically transcribes m
 Follow these steps to set up and run **AudioScribe AI** locally 👇  
 
 ### 1️⃣ Clone the Repository  
-- git clone https://github.com/<your-username>/audioscribe-ai.git
+- git clone https://github.com/VasaviSure/AudioScribeAI.git
 - cd audioscribe-ai
 ###2️⃣ Create a Virtual Environment
 - python -m venv venv
