@@ -1,0 +1,6 @@
+Flask
+SpeechRecognition
+pydub
+ollama
+openai-whisper
+torch

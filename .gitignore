@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Temporary Files & Uploads
+uploads/
+outputs/
+audio-chunks/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.avi
+
+# Vosk Models (Large files - download separately)
+vosk-model-*/
+!vosk-model-small-en-us-0.15/README
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# PyTorch & ML Models
+*.pth
+*.pt
+*.onnx
+models/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Project Specific
+the_audio_large.txt
+the_audio_whisper.txt
+meeting_summary.txt
+Recording.m4a
